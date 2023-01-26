@@ -12,4 +12,4 @@ export GCLOUD_REGION="northamerica-northeast2"
 ```
 * Requires ssh key in local dir as well
 * uses NVME scratch disk for Longhorn experimentation
-* sets up trusted-services (ssl,ssh, vpn) and trusted-nets (local & remote)
+* sets up trusted-services (ssl, ssh, vpn) and trusted-nets (local & remote)
