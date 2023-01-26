@@ -13,3 +13,6 @@ export GCLOUD_REGION="northamerica-northeast2"
 * Requires ssh key in local dir as well
 * uses NVME scratch disk for Longhorn experimentation
 * sets up trusted-services (ssl, ssh, vpn) and trusted-nets (local & remote)
+
+## What is it's purpose?
+I had a [reference architecture](https://github.com/flrichar/fred-arfa) used in AWS for a long time, and wondered how to quickly emualte the same in GCP given proper pre-existing access. 
