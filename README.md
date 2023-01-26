@@ -1,5 +1,5 @@
 # gcp-nodes
-Example terraform for gcp nodes with network
+Example terraform for gcp nodes with network config.
 
 ## Overview
 Create a simple network with two-nodes, for use with Rancher's Custom Cluster feature, where nodes are pre-provisioned.  Then one can pass other configurations/automations to install a Kubernetes distribution like RKE2/K3S/RKE1.
