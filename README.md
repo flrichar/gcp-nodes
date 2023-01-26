@@ -15,4 +15,4 @@ export GCLOUD_REGION="northamerica-northeast2"
 * sets up trusted-services (ssl, ssh, vpn) and trusted-nets (local & remote)
 
 ## What is it's purpose?
-I had a [reference architecture](https://github.com/flrichar/fred-arfa) used in AWS for a long time, and wondered how to quickly emualte the same in GCP given proper pre-existing access. 
+I had a [reference architecture](https://github.com/flrichar/fred-arfa) used in AWS for a long time, and wondered how to quickly emulate the same in GCP given proper pre-existing access. 
