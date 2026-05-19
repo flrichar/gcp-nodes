@@ -1,0 +1,19 @@
+# terraform.tfvars.example
+# Copy to terraform.tfvars and fill in your values.
+# terraform.tfvars should be in .gitignore.
+
+# Required
+project_id        = "your-gcp-project-id"
+trusted_source_ip = "203.0.113.1/32"   # Replace with your homelab/VPN egress IP
+
+# Optional — override defaults as needed
+region            = "northamerica-northeast2"
+zone              = "northamerica-northeast2-b"
+name_prefix       = "example"
+owner             = "example"
+project_label     = "my-project"
+subnet_cidr       = "10.100.88.0/24"
+trusted_cidrs     = []                  # e.g. ["10.46.0.0/17", "10.42.0.0/15"]
+ssh_user          = "debian"
+ssh_public_key_filepath = "sshkey.pub"
+instances_running = true
