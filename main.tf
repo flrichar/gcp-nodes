@@ -1,5 +1,5 @@
 // OpenTofu / Terraform configuration for GCP compute nodes
-// Intended for use with Rancher Custom Cluster (RKE2/K3s/RKE1) pre-provisioned nodes
+// Intended for use with Rancher Custom Cluster (RKE2 / K3S) pre-provisioned nodes
 
 terraform {
   // Example: PostgreSQL-compatible backend (e.g. CockroachDB serverless, Supabase, etc.)
